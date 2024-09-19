@@ -75,7 +75,7 @@ public class PiDigits {
             for (PiDigitsThread p : hilos){
                 counter += p.getCuantos();
             }
-            System.out.println("counter = " + counter);
+            System.out.println("Número de digitos encontrados hasta el momento = " + counter);
 
             scanner.nextLine();
 
